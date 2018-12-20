@@ -69,7 +69,7 @@ include ('functions.php');
 <div class="svgImage">    <!--img-->
     <img src="img/unsplash/logo.svg" class=" mx-auto my-5 img-fluid d-block" alt=""></div>
 <!--main-->
-<div class="container text-center">
+<div class="container text-center my-5">
     <h2>Contact Us</h2>
     <br>
     T: +1 (310)339 8500
@@ -77,6 +77,35 @@ include ('functions.php');
     F: +1 (310)339 8501
 
     </div>
+
+
+<div class="container text-center">
+    <div class="col-md-12 mb-5">
+        <div class="form-area ">
+            <form role="form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                </div>
+
+                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
     <!--footer-->
     <div class="footer">
         <div class="container d-flex justify-content-center">
