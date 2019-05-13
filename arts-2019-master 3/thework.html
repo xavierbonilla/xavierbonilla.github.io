@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artists</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wey2els.css">
+
+<!-- STYLE FOR SCROLLSPY SECTIONS ------------------------------------------------------------------------------------->
+
+    <style>
+        body {
+            position: relative;
+        }
+        #section1 {padding-top:50px;height:100vh;color: #fff; background-color: white;}
+        #section2 {padding-top:50px;height:100vh;color: #fff; background-color: white;}
+        #section3 {padding-top:50px;height:100vh;color: #fff; background-color: white;}
+        #section4 {padding-top:50px;height:100vh;color: #fff; background-color: white;}
+        #section5 {padding-top:50px;height:100vh;color: #fff; background-color: white;}
+        #section6 {padding-top:50px;height:100vh;color: #fff; background-color: white;}
+        #section7 {padding-top:50px;height:100vh;color: #fff; background-color: white;}
+    </style>
+</head>
+
+<!-- BODY ------------------------------------------------------------------------------------------------------------->
+
+<body class="container-fluid" data-spy="scroll" data-target="#spynav">
+
+<!-- NAV -------------------------------------------------------------------------------------------------------------->
+
+</div>
+<nav class="sticky-top" id="spynav">
+    <div class="hamburgercontainer" onclick="openNav()">
+        <div class="hamburger">
+            <img src="images/arts-mobile-nav-exhibition.svg" alt="red line" id="exhibitionline">
+            <img src="images/arts-mobile-nav-about.svg" alt="yellow line" id="aboutline">
+            <img src="images/arts-mobile-nav-artist.svg" alt="blue line"  id="artistline" >
+        </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav">
+            <img src="images/arts-logo-2019.svg" alt="logo" class="nav-logo">
+            <br>
+            <li class="nav-item" id="nav-about">
+                <a class="nav-link aboutbutton" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item" id="nav-exhibition">
+                <a class="nav-link showbutton" href="#exhibition">EXHIBITION</a>
+            </li>
+            <li class="nav-item" id="nav-artists">
+                <a class="nav-link workbutton" href="#artist">ART + ARTISTS</a>
+            </li>
+            <div class="artist-names" id="navbarSupportedContent">
+            </div>
+        </ul>
+    </div>
+    <div class="artist-names">
+        <ul>
+            <li class="nav-artists-nested">
+                <a class="nav-link" href="#section1">AMANDA GOMAND</a>
+            </li>
+            <li class="nav-artists-nested">
+                <a class="nav-link" href="#section2">JACQUERY WOLFGANG<br>MIER-HAERTL</a>
+            </li>
+            <li class="nav-artists-nested">
+                <a class="nav-link" href="#section3">KANDACE KRAUS</a>
+            </li>
+            <li class="nav-artists-nested">
+                <a class="nav-link" href="#section4">KYA WHITE</a>
+            </li>
+            <li class="nav-artists-nested">
+                <a class="nav-link" href="#section5">LEE BARTON</a>
+            </li>
+            <li class="nav-artists-nested">
+                <a class="nav-link" href="#section6">MARCUS STYLES</a>
+            </li>
+            <li class="nav-artists-nested">
+                <a class="nav-link" href="#section7">SYDNEY JOHNSTON</a>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+</nav>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="index.html#about" onclick="closeNav()"><div class="overlay-about-bar" id="slide"><h3 class="overlay-link-title">About</h3></div></a>
+        <a href="index.html#exhibition" onclick="closeNav()"><div class="overlay-exhibition-bar" id="slide"><h3 class="overlay-link-title">exhibition</h3></div></a>
+        <a href="index.html#artist" onclick="closeNav()"><div class="overlay-artist-bar" id="slide"><h3 class="overlay-link-title">art + artists</h3></div></a>
+    </div>
+</div>
+
+<!-- ENTIRE SCROLLABLE CONTENT DIV ------------------------------------------------------------------------------------>
+
+<div class="content" id="thework">
+
+<!-- SCROLLSPY SECTION 1 / AMANDA ------------------------------------------------------------------------------------->
+
+    <div id="section1" class="container-fluid">
+
+<!-- AMANDA'S INFO DIV ------------------------------------------------------------------------------------------------>
+
+        <div class="artistleft">
+            <div>
+                <h2 class="h2title">Meet The Artist</h2>
+            </div>
+            <br>
+            <br>
+            <div class="backgroundbar">
+                <h1 class="h1name">AMANDA</h1>
+            </div>
+            <div>
+                <img class="artistimg" src="images/artists/amanda-bio.jpg" alt="image">
+            </div>
+            <div>
+                <h2 class="h2name" id="gomand">GOMAND</h2>
+            </div>
+            <br>
+            <div>
+                <p class="parinfo infopar">My name is Amanda Gomand, and I am a painter from Minneapolis, Minnesota. I have a never ending curiosity for different processes and ways to communicate through art. I look at my life, from small details to significant events and channel my subconscious to explore the ideas of how these things made me feel. I create a narrative that is based around the events, but try to tell a relatable story that anyone can take their own meaning out of. Making things became a means of escape for me at a very young age, and still is. I like to start my work with scenes or backgrounds that aren’t aligned with reality, but will then incorporate that with a subject- usually an animal or a feminine figure, and create a special world just for them to exist in. Sometimes I like to imagine these little worlds I create are a place for me to go, too. Sometimes the animals or figures I use are a representation of a part of me. I am motivated by connecting with others by showing them these secret places that I have built from my heart to my hands to the canvas. I am influenced heavily by my dreams and traveling to other cities and scenic places, which are other forms of my escapism. I will always consider every color for a palette, and like to mix textures. I leave the process as open to experimentation as possible, and very little of it is planned out. Painting is my medium of choice, but I also enjoy making pottery, sculpting with paper and metal, and collage.</p>
+            </div>
+
+            <div>
+                <h3 class="socialtext">FOLLOW AMANDA</h3>
+            </div>
+
+            <div class="fontawesome">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+<!-- AMANDA'S ARTWORK DIV --------------------------------------------------------------------------------------------->
+
+        <div class="artistright">
+            <div class="tilescontainer2">
+                <div class="column1">
+
+                    <div class="img1-amanda img-fluid">
+
+                    </div>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenter" > <div class="img2-amanda">
+
+                    </div></a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenter2" data-slide-to="1"><div class="img3-amanda">
+
+                    </div></a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenter2" data-slide-to="1"><div class="img4-amanda">
+
+                    </div></a>
+
+                </div>
+
+                <div class="column2">
+
+                    <a  data-toggle="modal" data-target="#exampleModalCenter3" >  <div class="img4-amanda">
+
+                    </div></a>
+                    <a  data-toggle="modal" data-target="#exampleModalCenter4"> <div class="img5-amanda">
+
+                    </div></a>
+                    <div class="img6-amanda">
+
+                    </div>
+                    <a data-toggle="modal" data-target="#exampleModalCenter5"> <div class="img7-amanda">
+
+                    </div></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- SCROLLSPY SECTION 2 / JACQUERY ----------------------------------------------------------------------------------->
+
+    <div id="section2" class="container-fluid">
+
+<!-- JACQUERY'S INFO DIV ---------------------------------------------------------------------------------------------->
+
+        <div class="artistleft">
+            <div>
+                <h2 class="h2title">Meet The Artist</h2>
+            </div>
+            <br>
+            <br>
+            <div class="backgroundbar">
+                <h1 class="h1name">JACQUERY</h1>
+            </div>
+            <div>
+                <img class="artistimg" src="images/artists/jacquery-bio.jpg" id="jacquery-img" alt="image">
+            </div>
+            <div>
+                <h2 class="h2name" id="wolfgang">WOLFGANG <br>MIER-HAERTL</h2><br>
+            </div>
+            <div>
+                <p class="parinfo infopar">I am a multimedia artist. I make art because I want to create the things I needed to see when I was younger. This is important to me because there will always be young people sharing the same struggles that I have. As a transgender person, I hope to liberate my community and create a feeling of belonging by normalizing trans bodies in art. I work predominantly in ceramics as well as other traditional materials and while most of my work is functional my main focus is form. Most of my art centers around nature and the human body and typically incorporates themes of gender, sexuality, and growth.</p>
+            </div>
+
+            <div>
+                <h3 class="socialtext">FOLLOW JACQUERY</h3>
+            </div>
+
+            <div class="fontawesome">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fas fa-globe"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+<!-- JACQUERY'S ARTWORK DIV ------------------------------------------------------------------------------------------->
+
+        <div class="artistright">
+        </div>
+    </div>
+
+<!-- SCROLLSPY SECTION 3 / KANDACE ------------------------------------------------------------------------------------>
+
+    <div id="section3" class="container-fluid">
+
+<!-- KANDACE'S INFO DIV ----------------------------------------------------------------------------------------------->
+
+        <div class="artistleft">
+            <div>
+                <h2 class="h2title">Meet The Artist</h2>
+            </div>
+            <br>
+            <br>
+            <div class="backgroundbar">
+                <h1 class="h1name">KANDACE</h1>
+            </div>
+            <div>
+                <img class="artistimg" src="images/artists/kandace-bio.jpg" alt="image">
+            </div>
+            <div>
+                <h2 class="h2name" id="kraus">KRAUS</h2>
+            </div>
+            <br>
+            <div>
+                <p class="parinfo infopar">Art is my lifeline. I use it to navigate depression, breakdowns, break-ups and the like. Art becomes the visual image I need to express my emotions, thoughts and feelings that words cannot. Painful, heartbreaking incidents have woven themselves into the fabric of my life and have deeply influenced who I am. Rather than let these experiences become the core of who I am, I turn to my brush which places vibrant colors onto the canvas or a piece of clay that my hands shape into something useful. It all becomes an extension of who I am or want to be and it brings me hope. The colors, shapes, forms and mediums all reflect states of mind and are all a part of my consciousness...there is more than meets the eye.</p>
+            </div>
+
+            <div>
+                <h3 class="socialtext">FOLLOW KANDACE</h3>
+            </div>
+
+            <div class="fontawesome">
+                <a href=""><i class="fas fa-globe"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+<!-- KANDACE'S ARTWORK DIV -------------------------------------------------------------------------------------------->
+
+        <div class="artistright">
+        </div>
+    </div>
+
+<!-- SCROLLSPY SECTION 4 / KYA ---------------------------------------------------------------------------------------->
+
+    <div id="section4" class="container-fluid">
+
+<!-- KYA'S INFO DIV --------------------------------------------------------------------------------------------------->
+
+        <div class="artistleft">
+            <div>
+                <h2 class="h2title">Meet The Artist</h2>
+            </div>
+            <br>
+            <br>
+            <div class="backgroundbar">
+                <h1 class="h1name">KYA</h1>
+            </div>
+
+            <div>
+                <h2 class="h2name">WHITE</h2>
+            </div>
+            <br>
+            <div>
+                <p class="parinfo infopar">My name is Kya White and I’m a visual artist. Art is something that has always been a part of me before I started communicating. Its gives me a voice to be say about who I’m as a person from the inside as much as the outside as felt like I never had a voice or place in our society. I use my art especially painting to give myself a visual platform to freely express about what I feel, think and see about the things I’m going throughout my life that I can’t express with my words. The pieces that I do are colorful, mind expanding, simple yet realistic but nonrealistic in sense of “what you see and feel’’ when you look at it. Each of my piece, I use colors with a nonlinear and experimental approach to get people to think and feel about what they see through but also gives them escape from reality and expand their mindset into another world mentally, emotionally and spirituality. Showing people that it’s ok to be different in every way possible but also showing my world through my eyes and creating something that everyone can relate it</p>
+            </div>
+
+            <div>
+                <h3 class="socialtext">FOLLOW KYA</h3>
+            </div>
+
+            <div class="fontawesome">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+<!-- KYA'S ARTWORK DIV ------------------------------------------------------------------------------------------------>
+
+        <div class="artistright">
+        </div>
+    </div>
+
+<!-- SCROLLSPY SECTION 5 / LEE ---------------------------------------------------------------------------------------->
+
+    <div id="section5" class="container-fluid">
+
+<!-- LEE'S INFO DIV --------------------------------------------------------------------------------------------------->
+
+        <div class="artistleft">
+            <div>
+                <h2 class="h2title">Meet The Artist</h2>
+            </div>
+            <br>
+            <br>
+            <div class="backgroundbar">
+                <h1 class="h1name">LEE</h1>
+            </div>
+            <div>
+                <h2 class="h2name">BARTON</h2>
+            </div>
+            <br>
+            <div>
+                <p class="parinfo infopar">My work stems from the years I’ve spent as an activist. Over 10 years in the streets with protest after protest. There’s been hundreds of fliers wheat-pasted to walls; countless hours reviewing policy change proposals; hand-painting protest sign after sign; and too many cups of coffee with friends when we regroup to figure out the next plan of action. It was all those cups of coffee that that helped fuel change. Clay is something we encounter every day and is often unnoticed much like most of the issues we fight for. But as activists, we often neglect our wellbeing so I make mugs as a gentle reminder to take care of ourselves. Take a moment to pause and breathe. To bridge clay and mindfulness, my mugs are a single shade of transparent teal evoking a sense of calm as a visual representation of quiet contemplation. They have bottom-heavy curves that hug your hands as much as you hold that mug and your community. I present my mugs an invitation to start a conversation of care. Care through connections to our communities, and maybe another cup of coffee to get us going again.</p>
+            </div>
+
+            <div>
+                <h3 class="socialtext">FOLLOW LEE</h3>
+            </div>
+
+            <div class="fontawesome">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+<!-- LEE'S ARTWORK DIV ------------------------------------------------------------------------------------------------>
+
+        <div class="artistright">
+        </div>
+    </div>
+
+<!-- SCROLLSPY SECTION 6 / MARCUS ------------------------------------------------------------------------------------->
+
+    <div id="section6" class="container-fluid">
+
+<!-- MARCUS' INFO DIV ------------------------------------------------------------------------------------------------->
+
+        <div class="artistleft">
+            <div>
+                <h2 class="h2title">Meet The Artist</h2>
+            </div>
+            <br>
+            <br>
+            <div class="backgroundbar" id="marcus">
+                <h1 class="h1name">MARCUS</h1>
+            </div>
+            <div>
+                <img class="artistimg" src="images/artists/marcus-bio.jpg" alt="image">
+            </div>
+            <div>
+                <h2 class="h2name" id="styles">STYLES</h2>
+            </div>
+            <br>
+            <div>
+                <p class="parinfo">My name is Marcus Styles, I am a Multimedia Artist. My artwork is focused on connecting people and their isolated feelings through topics of gender, sexuality, and identity. I find myself often referencing Greek history, while merging geography, movement, and the relationships we experience ourselves and with others in modern times. To create this experience I use various medias like dance, visual design, photography, and creative writing. Although there may not always be material similarities between the different projects, they are linked by recurring symbolism and motifs. Each project often consists of variations, often in a range of different media, grouped around specific themes and meanings.</p>
+            </div>
+
+            <div>
+                <h3 class="socialtext">FOLLOW MARCUS</h3>
+            </div>
+
+            <div class="fontawesome">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fas fa-globe"></i></a>
+                <a href=""><img src="images/icons/chat.svg" alt="unknown"></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+
+<!-- MARCUS' ARTWORK DIV ---------------------------------------------------------------------------------------------->
+
+        </div>
+        <div class="artistright">
+        </div>
+    </div>
+
+<!-- SCROLLSPY SECTION 7 / SYDNEY ------------------------------------------------------------------------------------->
+
+    <div id="section7" class="container-fluid">
+
+<!-- SYDNEY'S INFO DIV ------------------------------------------------------------------------------------------------>
+
+        <div class="artistleft">
+            <div>
+                <h2 class="h2title">Meet The Artist</h2>
+            </div>
+            <br>
+            <br>
+            <div class="backgroundbar">
+                <h1 class="h1name">SYDNEY</h1>
+            </div>
+            <div>
+                <img class="artistimg" src="images/artists/sydney-bio.jpg" alt="image">
+            </div>
+            <div>
+                <h2 class="h2name" id="johnston">JOHNSTON</h2>
+            </div>
+            <br>
+            <div>
+                <p class="parinfo">I am Sydney Johnston- a potter, a maker, and a home decor enthusiast. I make things that are both beautiful and useful. I am influenced by my faith, nature, and my grandparents. I grew up in Northern Iowa, and I love Northern Minnesota, and I find them influential as well. My work is quiet. It is humble. It is warm and inviting, yet simple in form. It is light, and it is sentimental. When I make a piece, I imagine finding it on the kitchen table or counter, in the cupboard or on a shelf, in a home and in your hands. Because I am set free by God’s love and grace, I am free from worry. I don’t have to be afraid of what the future holds because I know who holds the future. This is evident in my work as it gives it less urgency. I thoroughly enjoy the process of making it, and then I am thankful for having the opportunity to do so.</p>
+            </div>
+
+            <div>
+                <h3 class="socialtext">FOLLOW SYDNEY</h3>
+            </div>
+
+            <div class="fontawesome">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+<!-- SYDNEY'S ARTWORK DIV --------------------------------------------------------------------------------------------->
+
+        <div class="artistright">
+        </div>
+    </div>
+
+</div>
+
+<!-- SCRIPTS ---------------------------------------------------------------------------------------------------------->
+
+<script>
+    ('body').scrollspy({ target: '#spynav' })
+    /* Open when someone clicks on the span element */
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

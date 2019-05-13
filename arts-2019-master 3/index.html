@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FineArts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wey2els.css">
+
+
+</head>
+<body data-spy="scroll" data-target="#spynav" id="main">
+
+
+
+<nav class="sticky-top" id="spynav">
+    <div class="hamburgercontainer" onclick="openNav()">
+        <div class="hamburger">
+            <img src="images/arts-mobile-nav-exhibition.svg" alt="red line" id="exhibitionline">
+            <img src="images/arts-mobile-nav-about.svg" alt="yellow line" id="aboutline">
+            <img src="images/arts-mobile-nav-artist.svg" alt="blue line"  id="artistline" >
+        </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav">
+                <img src="images/arts-logo-2019.svg" alt="logo" class="nav-logo">
+            <br>
+            <li class="nav-item" id="nav-about">
+                <a class="nav-link aboutbutton" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item" id="nav-exhibition">
+                <a class="nav-link showbutton" href="#exhibition">EXHIBITION</a>
+            </li>
+            <li class="nav-item" id="nav-artists">
+                <a class="nav-link workbutton" href="#artist">ART + ARTISTS</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Overlay content -->
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="#about" onclick="closeNav()"><div class="overlay-about-bar" id="slide"><h3 class="overlay-link-title">About</h3></div></a>
+        <a href="#exhibition" onclick="closeNav()"><div class="overlay-exhibition-bar" id="slide"><h3 class="overlay-link-title">exhibition</h3></div></a>
+        <a href="#artist" onclick="closeNav()"><div class="overlay-artist-bar" id="slide"><h3 class="overlay-link-title">art + artists</h3></div></a>
+    </div>
+</div>
+
+<div>
+        <div class="landing">
+
+        <img src="images/arts-logo-2019.svg" class="logohomepage" alt="main logo">
+
+        <div class=" sociallinks d-none">
+
+            <p class="socialp">© 2019 minneapolis college</p>
+
+            <a class="socialicons facebook" href=""><img src="images/fb.svg" alt=""></a>
+
+
+            <a class="socialicons" href=""><img src="images/insta.svg" alt=""></a>
+
+
+            <a class="socialicons" href=""><img src="images/twitter.svg" alt=""></a>
+
+
+            <a class="socialicons" href=""><img src="images/pinterest.svg" alt=""></a>
+
+    </div>
+        </div>
+
+    <div class="tilescontainer sticky-tiles">
+
+        <div class="column1">
+
+            <div class="img1">
+
+            </div>
+            <a href="#" data-toggle="modal" data-target="#exampleModalCenter" > <div class="img2">
+
+            </div></a>
+            <a href="#" data-toggle="modal" data-target="#exampleModalCenter2" data-slide-to="1"><div class="img3">
+
+            </div></a>
+
+        </div>
+
+        <div class="column2">
+
+            <a  data-toggle="modal" data-target="#exampleModalCenter3" >  <div class="img4">
+
+            </div></a>
+            <a  data-toggle="modal" data-target="#exampleModalCenter4"> <div class="img5">
+
+            </div></a>
+            <div class="img6">
+
+            </div>
+            <a data-toggle="modal" data-target="#exampleModalCenter5"> <div class="img7">
+
+            </div></a>
+
+        </div>
+
+        <div class="column3">
+            <a data-toggle="modal" data-target="#exampleModalCenter6"> <div class="img8">
+
+            </div></a>
+            <a data-toggle="modal" data-target="#exampleModalCenter7"> <div class="img9">
+
+            </div></a>
+            <div class="img10">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <a href="thework.html#section3" class="col-6 pr-0 modalinfo black">
+                        <h2 class="mb-0 pl-2"><b>Kandace</b></h2>
+                        <h3 class="pl-2"><b>Krause</b></h3>
+                        <p class="modalp pr-4 pl-2">Me Before Me, a full body self-portrait, was painted in 2017. It represents a time in my life that “life had thrown a curveball”. It was when depression and delusions took over and my only way to get back to reality was to paint.</p>
+                        <div class="row pl-3">
+                            <div class="modal-footer1 pl-2 bottom-align-text">
+                                <p class="modalp">
+                                <h4>Me before Me</h4>
+                                Acrylic on Canvas <br> 24” X 36”</p>
+                                <p class="modalp">
+                                    Best in Show <br>
+                                    The Great Hall, St. Paul MN <br>
+                                    Artability Show 2018</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-6 pl-0">
+                        <img src="img/kandacekrause-mebeforeme-modal.jpg" alt="" class="img-fluid m-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <a href="thework.html#section2" class="col-6 pr-0 black modalinfo">
+                        <h2 class="mb-0 pl-2"><b>Jack </b></h2>
+                        <h3 class="pl-2"><b>wolfgang meier-haertl</b></h3>
+                        <div class="row pl-3">
+                            <div class="modal-footer1 pl-2 bottom-align-text">
+                                <p class="modalp">
+                                <h4>crystal cup 2019</h4>
+                                stoneware and highfire glaze </p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-6 pl-0">
+                        <img src="img/crystal-cup.jpg" alt="" class="img-fluid m-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <a href="thework.html#section4" class="col-6 pr-0 black modalinfo">
+                        <h2 class="mb-0 pl-2"><b>kya</b></h2>
+                        <h3 class="pl-2"><b>white</b></h3>
+                    </a>
+                    <div class="col-6 pl-0">
+                        <img src="img/kyagreen.png" alt="" class="img-fluid m-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <a href="thework.html#section5" class="col-6 pr-0 black modalinfo">
+                        <h2 class="mb-0 pl-2"><b>lee </b></h2>
+                        <h3 class="pl-2"><b>barton</b></h3>
+                        <div class="row pl-3">
+                            <div class="modal-footer1 pl-2 bottom-align-text">
+                                <p class="modalp">
+                                <h4> Mug #2</h4>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-6 pl-0">
+                        <img src="img/mug2.png" alt="" class="img-fluid m-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <a href="thework.html#section6" class="col-6 pr-0 black modalinfo">
+                        <h2 class="mb-0 pl-2"><b>marcus  </b></h2>
+                        <h3 class="pl-2"><b>styles</b></h3>
+                        <p class="modalp pr-4 pl-2">Initiation is conflict illustration that portrays a gold character having to choose between giving into passion or desire. This piece was also featured in Absent the second book in the A Trilogy visual poetry series written by Marcus Styles.</p>
+                        <div class="row pl-3">
+                            <div class="modal-footer1 pl-2 bottom-align-text">
+                                <p class="modalp">
+                                <h4>initiation 2018</h4> digital illustration
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-6 pl-0">
+                        <img src="images/inititation.png" alt="" class="img-fluid m-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <a href="thework.html#section7" class="col-6 pr-0 black modalinfo">
+                        <h2 class="mb-0 pl-2"><b>sydney</b></h2>
+                        <h3 class="pl-2"><b>johnston</b></h3>
+                        <div class="row pl-3">
+                            <div class="modal-footer1 pl-2 bottom-align-text">
+                                <p class="modalp">
+                                <h4>dear </h4>
+                                raku clay glazed
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-6 pl-0">
+                        <img src="images/img-8-lg.png" alt="" class="img-fluid m-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <a href="thework.html#section1" class="col-6 pr-0 black modalinfo">
+                        <h2 class="mb-0 pl-2"><b>Amanda   </b></h2>
+                        <h3 class="pl-2"><b>Gomand</b></h3>
+                        <div class="row pl-3">
+                            <div class="modal-footer1 pl-2 bottom-align-text">
+                                <p class="modalp">
+                                <h4>“everything is cold” 2016</h4>  12” X 12” <br>acrylic, watercolor, ink, and dried rose on canvas <br>
+                                raku clay glazed
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-6 pl-0">
+                        <img src="img/cold-lg.png" alt="" class="img-fluid m-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="about" id="about">
+
+
+
+   <div class="aboutcontent">
+        <h2 class="abouth2">Minneapolis College <span class="goldyellow">Fine Arts</span> Program</h2>
+
+    <p>MCTC's Associate of Fine Arts (A.F.A.) Degree in Visual Arts is a combination of liberal arts general education courses and foundation courses in Art and Art History. The A.F.A. offers you an opportunity to think seriously about a career in and related to visual art. You will complete the degree with a portfolio to prepare you for transfer to a four-year baccalaureate program in Fine Arts (B.A. or B.F.A.). Students desiring a two-year AFA degree for job placement or enhancement, as well as those returning to school for enrichment purposes will also benefit from this degree.
+        <br> <br>Coursework will cover art and art history from all over the world and across time periods. Additionally, core courses in design, drawing, painting, ceramics, photography, and sculpture lead students to more advanced study and creation in those areas, as well as watercolor, printmaking and direct metal sculpture.</p>
+
+
+
+        <div class="learnbtn">
+                <a href="https://www.minneapolis.edu/visual-arts" target="_blank" class="">Learn More</a>
+        </div>
+
+   </div>
+
+    <div class="learnbtn_mobile">
+        <a href="https://www.minneapolis.edu/visual-arts" target="_blank" class="learn_a_mobile">Learn More</a>
+    </div>
+
+
+
+
+
+</div>
+        <div class=" exhibition " id="exhibition">
+
+
+    <div class="col-10 col-md-6">
+    <h2>April <span>22nd</span> 2019</h2>
+</div>
+
+
+
+    <div class="col-8 offset-md-0"><h3>Minneapolis Community & Technical College
+
+        <br>
+
+        fine arts building
+    </h3></div>
+
+            <div class="col-8 offset-md-0" id="address">
+                1501 Hennepin Ave <br>
+                Minneapolis, MN 55403
+            </div>
+
+        <div class="col-12">
+            <h2>join us for the reception</h2>
+        </div>
+        <div class="col-md-4 col-12 " >
+            <div class="the-date">
+               <h2> April 23rd </h2>
+            </div>
+        </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        <div class="col-12">
+            <h3>2:00 pm Fine Arts Building Lobby</h3>
+        </div>
+
+        </div>
+</div>
+
+
+    <div class="container" id="artist">
+        <div id="rowOne" class="row ">
+         <h2 class="artisth2">   The <span id="blue-bg">artists</span> behind the show</h2>
+        </div>
+        <div class="row artist-window-dsk">
+           <a href="thework.html#section1" class="artista"> <div class="col" id="Amanda"><div class="name"><span id="firstname">Amanda</span><br> Gomand</div></div></a>
+            <a href="thework.html#section4" class="artista"><div class="col" id="kandace"><div class="name"><span id="firstname">Kandace</span> <br>Kraus</div></div></a>
+            <a href="thework.html#section2" class="artista"><div class="col" id="kya"><div class="name"><span id="firstname">Kya</span><br>White</div></div></a>
+           <a href="thework.html#section3" class="artista"> <div class="col" id="wolfgang"><div class="name"><span id="firstname">Jacquery</span><br>Wolfgang <br> Mier-Haertl </div></div></a>
+            <a href="thework.html#section5" class="artista"><div class="col" id="lee"><div class="name"><span id="firstname">Lee</span> <br>Barton</div></div></a>
+            <a href="thework.html#section6" class="artista"><div class="col" id="marcus"><div class="name"><span id="firstname">Marcus</span><br> Styles</div></div></a>
+           <a href="thework.html#section7" class="artista"> <div class="col" id="sydney"><div class="name"><span id="firstname">Sydney</span><br>Johnston</div></div></a>
+        </div>
+        <div class="artist-window-mobile">
+            <a href="thework.html#section1">
+               <div class="topwindow">
+                   <div class="name-mob">
+                   <h2> Amanda</h2>
+                       <h3>Gomand</h3>
+                </div>
+                    <div class="image-window1">
+                    </div>
+               </div>
+
+            </a>
+            <a href="thework.html#section4">
+                <div class="horizontal-window">
+                    <div class="name-mob">
+                       <h2>Kandace</h2>
+                       <h3>Kraus</h3>
+                    </div>
+                    <div class="image-window2">
+
+                    </div>
+                </div>
+            </a>
+            <a href="thework.html#section2">
+                <div class="horizontal-window">
+                    <div class="name-mob">
+                      <h2>Kya</h2>
+                        <h3>White</h3>
+                    </div>
+                    <div class="image-window3">
+
+                    </div>
+                </div>
+            </a>
+            <a href="thework.html#section3">
+                <div class="horizontal-window">
+                    <div class="name-mob">
+                       <h2>Jacquery</h2>
+                        <h3>Wolfgang <span class="wolfgang">Mier-Haertl</span></h3>
+                    </div>
+                    <div class="image-window4">
+
+                    </div>
+                </div>
+            </a>
+            <a href="thework.html#section5">
+                <div class="horizontal-window">
+                    <div class="name-mob">
+                        <h2>Lee</h2>
+                        <h3>Barton</h3>
+                    </div>
+                    <div class="image-window5">
+
+                    </div>
+                </div>
+            </a>
+            <a href="thework.html#section6">
+                <div class="horizontal-window">
+                    <div class="name-mob">
+                        <h2>Marcus</h2>
+                        <h3>Styles</h3>
+                    </div>
+                    <div class="image-window6">
+
+                    </div>
+                </div>
+            </a>
+            <a href="thework.html#section7">
+                <div class="horizontal-window">
+                    <div class="name-mob">
+                        <h2>Sydney</h2>
+                        <h3>Johnston</h3>
+                    </div>
+                    <div class="image-window7">
+
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

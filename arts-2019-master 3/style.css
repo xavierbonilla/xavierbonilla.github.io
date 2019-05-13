@@ -1,0 +1,1510 @@
+@import url("https://use.typekit.net/qpx1kvn.css");
+
+/* Nav Section -------------------------------------------------------------------*/
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+html, body {
+    margin: 0!important;
+    padding: 0!important;
+    max-width: 100% !important;
+}
+body {
+    position: relative;
+}
+.nav-link {
+    color: #000;
+    width: 150px;
+    padding-left: 40px;
+}
+
+
+.nav {
+    position: absolute;
+    top: 70px;
+
+    display: inline;
+}
+
+
+
+/* Full screen overlay ___________________________________________*/
+button {
+    border: none!important;
+}
+button.active.focus,
+button.active:focus,
+button.focus,
+button.focus:active,
+button:active:focus,
+button:focus {
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(255,255,255); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: black;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+body {
+    font-family: rift, sans-serif;
+}
+.landing {
+   height: 90vh;
+    margin-top: -117px;
+    position: relative;
+}
+
+#about {
+    height: 100vh;
+    margin-top: 10px;
+}
+.aboutcontent {
+    margin-left: 160px;
+    display: inline-block;
+    width: 39%;
+    margin-top: 240px;
+}
+.exhibition {
+    padding-left: 150px;
+    padding-top: 233px;
+}
+
+.goldyellow {
+    padding: 0px 4px;
+    background-color: gold;
+}
+
+.learnbtn {
+    height: 60px;
+    background: black;
+    padding: auto;
+    width: 90%;
+    padding-top: 1%;
+}
+.learnbtn_mobile {
+    display: none;
+}
+
+
+.learnbtn a{
+    font-size: 34px;
+    margin-left: 315px;
+    color: gold;
+}
+
+.leftside{
+    float: left;
+    width: 50%;
+}
+
+.logohomepage{
+    width: 37%;
+    position: absolute;
+    top: 57%;
+    left: 11%;
+}
+@media (max-width: 991px) {
+    .hamburger {
+        display: block;
+        width: 55px;
+        position: sticky;
+        position: -webkit-sticky;
+        padding-top: 25px;
+        margin-left: 86%;
+
+    }
+    .logohomepage{
+        width: 80%;
+        position: absolute;
+        top: 49%;
+        left: 10%;
+    }
+    .aboutcontent {
+        display: inline-block;
+        width: 70vw;
+        margin-top: 240px;
+        margin-left:55px;
+    }
+    .exhibition {
+        padding-left:10px;
+        width:100%;
+    }
+    .learnbtn a{
+        font-size: 34px;
+        margin-left: 45%;
+        color: gold;
+
+    }
+    .sticky-top {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 10px;
+        z-index: 1;
+    }
+
+
+}
+
+.sociallinks {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+}
+
+.socialp {
+    width: 157px;
+    display: inline;
+}
+.socialicons {
+    display: inline-block;
+    margin: 0 10px;
+}
+.facebook {
+    color: gold;
+}
+.sticky-top {
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+}
+.sticky-tiles {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 0;
+}
+.main {
+    font-size: 28px; /* Increased text to enable scrolling */
+}
+
+/* Tiles __________________________________________________________________________*/
+
+.rightside{
+    float: right;
+    width: 50%;
+    height: 90vh;
+}
+
+.tilescontainer{
+    /*padding: 20px 10px;*/
+    display: inline-block;
+    float: right;
+    margin-top: -800px;
+    max-height: 90vh;
+}
+
+.column1 {
+    height: 100vh;
+    display: inline-block;
+
+}
+
+.column2 {
+    height: 100vh;
+    display: inline-block;
+}
+.column3 {
+    height: 100vh;
+    display: inline-block;
+}
+
+.img1 {
+    width: 222px;
+    height: 195px;
+    background: url("images/a-title.svg");
+    margin: 10px;
+}
+.img2 {
+    width: 222px;
+    height: 349px;
+    background: url("images/painting-left.jpg");
+    margin: 10px;
+    transition: .25s;
+}
+
+.img3 {
+    width: 222px;
+    height: 266px;
+    margin: 10px;
+    background: url("images/artists/jaquery-window.jpg");
+    transition: .25s;
+}
+
+.img4 {
+    width: 222px;
+    height: 108px;
+    margin: 10px;
+    background: url("images/cup-middle.jpg");
+    transition: .25s;
+}
+
+.img5 {
+    width: 222px;
+    height: 164px;
+    margin: 10px;
+    background: url("images/mug-middle.png");
+    transition: .25s;
+}
+
+.img6 {
+    width: 222px;
+    height: 214px;
+    margin: 10px;
+    background: url("images/f-middle.svg") center center;
+    background-size: contain;
+}
+
+.img7 {
+    width: 222px;
+    height: 314px;
+    margin: 10px;
+    background: url("images/holdinghands-middle.jpg");
+    transition: .25s;
+}
+
+.img8 {
+    width: 222px;
+    height: 291px;
+    margin: 10px;
+    background: url("images/ashes1.jpg");
+    transition: .25s;
+}
+
+.img9 {
+    width: 222px;
+    height: 257px;
+    margin: 10px;
+    background: url("images/everythingiscold.jpg");
+    transition: .25s;
+}
+
+.img10 {
+    width: 222px;
+    height: 262px;
+    margin: 10px;
+    background: url("images/a-right.svg");
+}
+
+.img2:hover {
+
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+
+}
+.img3:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.img4:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.img5:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.img7:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.img8:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.img9:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.showbutton{
+
+}
+
+
+.sidenav {
+    left: 10px;
+    margin: 40px 0 60px 5px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    top: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.sidenav a {
+    color: black;
+    display: block;
+    font-size: 25px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+}
+
+.workbutton{
+    margin: 0 0 0 0;
+    padding-bottom: 5px;
+    padding-right: 0 !important;
+}
+
+.workbutton:hover{
+    background-color: #0021CD;
+    color: white;
+}
+.showbutton:hover{
+    background-color: #A72129;
+    color: white;
+}
+#aboutbutton:hover{
+    background-color: gold;
+    color: black;
+}
+
+
+
+/* Tiles to fit laptop screen width*/
+
+@media only screen and (max-width: 1480px) {
+    .img1 {
+        width: 172px;
+        height: 145px;
+        background: url("images/a-title.svg");
+        margin: 10px;
+        background-size: cover;
+    }
+    .img2 {
+        width: 172px;
+        height: 299px;
+        background: url("images/painting-left.jpg");
+        margin: 10px;
+        background-size: cover;
+    }
+
+    .img3 {
+        width: 172px;
+        height: 249px;
+        margin: 10px;
+        background: url("images/artists/jaquery-window.jpg");
+        background-size: cover;
+    }
+
+    .img4 {
+        width: 172px;
+        height: 58px;
+        margin: 10px;
+        background: url("images/artists/kya-window.jpg");
+        background-size: cover;
+    }
+
+    .img5 {
+        width: 172px;
+        height: 114px;
+        margin: 10px;
+        background: url("images/mug-middle.png");
+        background-size: cover;
+    }
+
+    .img6 {
+        width: 172px;
+        height: 214px;
+        margin: 10px;
+        background: url("images/f-middle.svg")center center;
+    }
+
+    .img7 {
+        width: 172px;
+        height: 295px;
+        margin: 10px;
+        background: url("images/holdinghands-middle.jpg");
+        background-size: cover;
+    }
+
+    .img8 {
+        width: 172px;
+        height: 241px;
+        margin: 10px;
+        background: url("images/artists/sydney-window.jpg");
+        background-size: cover;
+    }
+
+    .img9 {
+        width: 172px;
+        height: 207px;
+        margin: 10px;
+        background: url("images/everythingiscold.jpg");
+        background-size: cover;
+    }
+
+    .img10 {
+        width: 172px;
+        height: 242px;
+        margin: 10px;
+        background: url("images/a-right.svg");
+        background-size: cover;
+    }
+
+    .tilescontainer {
+        padding: 4px 53px;
+    }
+
+    .collapse:not(.show) {
+        display: block;
+    }
+
+}
+.exhibitionbreak-mobile {
+    display: none;
+}
+.the-date {
+    background-color: #A72129;
+    color: white;
+    display: block;
+    margin: 10px 0;
+    position: absolute;
+    width: 84%;
+    padding-left: 43%;
+    padding-top: 7px;
+}
+
+    @media (max-width: 1320px){
+        h2 {
+            font-size: 49px!important;
+            font-weight: 600;
+            font-style: normal;
+        }
+        h3 {
+            font-size: 38px!important;
+        }
+        .learn_a_mobile {
+            font-size: 46px;
+            margin-left: 70%;
+            color: gold;
+            width: 250px;
+            font-weight: 600;
+        }
+        .learn_a_mobile.active .focus {
+            color: gold!important;
+            text-decoration:none;
+        }
+        .learnbtn {
+            display: none;
+        }
+        .learnbtn_mobile {
+        display: block;
+            background: black;
+            padding: auto;
+            width: 86%;
+
+
+        }
+        p {
+            font-size: 24px!important;
+            margin-top: 26px;
+            margin-bottom: 44px;
+
+        }
+
+        .hamburger {
+            display: block;
+            width: 48px;
+            position: sticky;
+            position: -webkit-sticky;
+            padding-top: 25px;
+            margin-left: 86%;
+        }
+        .hamburger:hover {
+            cursor: pointer;
+        }
+        .hamburgercontainer {
+            display: block;
+            width: 55px;
+            position: sticky;
+            position: -webkit-sticky;
+            padding-top: 25px;
+            margin-left: 86%;
+        }
+        .overlay-about-bar {
+            background-color: gold;
+            position: absolute;
+            width: 80%;
+            right: 0;
+            height: 100px;
+            padding-top: 3.2%;
+        }
+        .overlay-exhibition-bar{
+            background-color: #A72129;
+            position: absolute;
+            width: 80%;
+            right: 0;
+            top: 147px;
+            color: white;
+            height: 100px;
+            padding-top: 3.2%;
+        }
+        .overlay-artist-bar {
+            background-color: blue;
+            position: absolute;
+            width: 80%;
+            right: 0;
+            top: 290px;
+            color: white;
+            height: 100px;
+            padding-top: 3.2%;
+        }
+        .overlay-link-title {
+            font-weight: 600;
+        }
+        #slide {
+            -webkit-animation: slide 0.5s forwards;
+            -webkit-animation-delay: 2s;
+            animation: ease-in 2s forwards;
+            animation-delay: 3s;
+        }
+        @-webkit-keyframes slide {
+            0% {width: 0%}
+            100% { width: 80%; }
+        }
+
+        @keyframes slide {
+            0% {width: 0%;}
+            100% { width: 80%; }
+        }
+        #address {
+            margin: 25px 0;
+        }
+        #aboutline {
+            fill: none;
+            stroke: #646464;
+            stroke-width: 1px;
+            stroke-dasharray: 2,2;
+            stroke-linejoin: round;
+            text-anchor: middle;
+            position: absolute;
+            top: 34px;
+        }
+
+        .exhibition {
+            padding-left: 26%!important;
+            margin-bottom: 465px;
+        }
+
+
+
+        #exhibitionline {
+            fill: none;
+            stroke: #646464;
+            stroke-width: 1px;
+            stroke-dasharray: 2,2;
+            stroke-linejoin: round;
+            position: absolute;
+            top: 23px;
+        }
+        .the-date {
+            background-color: #A72129;
+            color: white;
+            display: block;
+            margin: 5px 0;
+            position: absolute;
+            width: 364%;
+            left: -121%;
+            padding-left: 127%;
+            padding-top: 7px;
+        }
+        .exhibitionbreak-mobile{
+            display: block;
+        }
+        #artistline {
+            fill: none;
+            stroke: #646464;
+            stroke-width: 1px;
+            stroke-dasharray: 2,2;
+            stroke-linejoin: round;
+            position: absolute;
+            top: 45px;
+
+        }
+        #address {
+            font-size: 35px !important;
+        }
+        .tilescontainer {
+            display: none;
+        }
+        .logohomepage {
+            left: 31%;
+        }
+        .aboutcontent {
+            margin-left: 4%;
+            width: 82%;
+            margin-top: 300px;;
+        }
+        #exhibition {
+            height: 90vh;
+            padding-top: 375px;
+        }
+        #artist {
+            height: 100vh;
+            margin-top: 318px;
+            margin-left: 0!important;
+            padding-top: 285px!important;
+            max-width: 1320px!important;
+        }
+        .artisth2 {
+            margin-left: 8%;
+        }
+        .exhibition {
+            padding-left: 28%;
+        }
+        .nav {
+            display: none;
+        }
+        .artist-window-dsk {
+            display: none;
+        }
+        .sticky-top {
+            position: sticky;
+            position: -webkit-sticky;
+            top: 10px;
+            z-index: 1;
+        }
+
+        .logohomepage {
+            width: 63%;
+            position: absolute;
+            top: 49%;
+            left: 21%;
+        }
+        p .parinfo {
+            width: 510px!important;
+        }
+    }
+
+
+
+    @media (min-width: 1321px){
+        .logohomepage {
+            width: 40%;
+            position: absolute;
+            top: 63% !important;
+            left: 11% !important;
+        }
+    }
+
+@media only screen and (max-width: 768px) {
+
+    .logohomepage {
+        width: 63%;
+        position: absolute;
+        top: 49%;
+        left: 21%;
+    }
+    #artist {
+        margin-top: 265px;
+    }
+}
+
+
+/* The Work Section ---------------------------------------------------------------*/
+
+.fontsize{
+    font-size: 20px !important;
+}
+
+.logoworkpage{
+    margin-top: 20px;
+    width: 25%;
+}
+
+.sidenav2{
+    margin: 0 0 0 0 !important;
+}
+h1 {
+    font-family: sans-serif Rift;
+    line-height: normal;
+    font-size: 64px;
+
+    color: #000000;
+}
+h2{
+    font-size: 42px;
+}
+h3 {
+    font-size: 24px;
+}
+h1 span {
+    background-color: #FFE600;
+}
+.exhibition span {
+    background-color: #A72129;
+    color: white;
+}
+#rectangle-3 {
+    position: absolute;
+    width: 145px;
+    height: 46px;
+    left: 393px;
+    top: 311px;
+
+    background: #FFE600;
+}
+
+
+#learn-more {
+    /*position: absolute;*/
+    /*width: 453px;*/
+    /*height: 60px;*/
+
+
+    background: #000000;
+}
+#learn-more a {
+    color: #FFE600;
+    font-size: 36px;
+}
+
+#address{
+    line-height: 43px;
+
+}
+
+#date  {
+    background-color: #A72129;
+    color: white;
+}
+#fine-arts span {
+    background-color: #FFE600;
+    color: black;
+}
+#fine-arts{
+    padding-left: 0;
+    margin-top: 250px;
+}
+#fine-arts h2 {
+    font-weight: bold;
+}
+
+#splash-bottom {
+    font: rift, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+    margin-top: 360px;
+
+    color: #333333;
+}
+#exhibition{
+    padding-bottom: 210px;
+}
+.name {
+    padding-top: 100px;
+    padding-left: 10px;
+    font-size: 24px;
+    text-align: left;
+}
+#kandace:hover {
+    background-image: url("img/Kandace-Krause.jpg");
+    background-size: cover;
+}
+#Amanda:hover {
+    background-image: url("img/amanda.png");
+    background-size: cover;
+}
+#kya:hover {
+    background-image: url("img/kya.png");
+    background-size: cover;
+}
+#wolfgang:hover {
+    background-image: url("img/wolfgang.png");
+    background-size: cover;
+}
+#lee:hover {
+    background-image: url("img/lee.png");
+    background-size: cover;
+
+}
+#marcus:hover {
+    background-image: url("img/marcus.png");
+    background-size: cover;
+
+}
+#sydney:hover {
+    background-image: url("img/sydney.png");
+    background-size: cover;
+
+}
+
+
+.col {
+    background-color: black;
+    width: 140px;
+    height: 600px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    transition: 1s;
+}
+
+#artist {
+    height: 100vh;
+    margin-top: 140px;
+    margin-left: 13%;
+    padding-top: 56px;
+}
+#blue-bg {
+    background: blue;
+    color: white;
+    padding: 0 3px;
+}
+.artisth2 {
+    font-size: 36px;
+}
+.artista {
+    text-decoration: none;
+
+}
+.artista:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* THIS IS THE NEW NAV -----------------------------------------------------------------------------------------------*/
+
+#nav-about .nav-link.active {
+    font-size: 1.25rem;
+    color: black;
+    background: gold;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-about a:hover {
+    font-size: 1.25rem;
+    color: black;
+    background: gold;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-exhibition .nav-link.active {
+    font-size: 1.25rem;
+    color: white;
+    background: #A72129;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-exhibition a:hover {
+    font-size: 1.25rem;
+    color: white;
+    background: #A72129;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-artists .nav-link.active {
+    font-size: 1.25rem;
+    color: white;
+    background: #0021CD;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-artists a:hover {
+    font-size: 1.25rem;
+    color: white;
+    background: #0021CD;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-artists-static .nav-link {
+    font-size: 1.25rem;
+    color: white;
+    background: #0021CD;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+.nav-artists-nested .nav-link.active {
+    color: #0021CD;
+    background: none;
+    font-weight: bold;
+}
+
+.nav-artists-nested a:hover {
+    color: #0021CD;
+    background: none;
+    font-weight: bold;
+}
+
+ul img {
+    width: 100%;
+    padding-left: 20px;
+    /*visibility: hidden;*/
+}
+
+#content {
+    padding-left: 100px;
+}
+.nav-logo {
+    display: none;
+}
+/* THE WORK SECTION ------------------------------------------------------------------------------------------------- */
+
+.fontsize{
+    font-size: 20px !important;
+}
+
+.logoworkpage{
+    margin-top: 20px;
+    width: 25%;
+}
+
+.sidenav2{
+    margin: 0 0 0 0 !important;
+}
+h1 {
+    font-family: Rift, sans-serif;
+    line-height: normal;
+    font-size: 64px;
+
+    color: #000000;
+}
+
+.h1title {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 42px;
+}
+
+.h2title {
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.h2text {
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.backgroundbar {
+    background-color: #0021CD;
+    width: 100%;
+}
+
+.artist-img {
+    position: relative;
+    bottom: 230px;
+    left: 350px;
+    margin-bottom: -200px;
+}
+
+h1 span {
+    background-color: #FFE600;
+}
+
+.parinfo {
+    color: black;
+    margin-left: 10px;
+}
+
+.exhibition span {
+    background-color: #A72129;
+    color: white;
+}
+#rectangle-3 {
+    position: absolute;
+    width: 145px;
+    height: 46px;
+    left: 393px;
+    top: 311px;
+    background: #FFE600;
+}
+
+#learn-more {
+    /*position: absolute;*/
+    /*width: 453px;*/
+    /*height: 60px;*/
+    background: #000000;
+}
+
+#learn-more a {
+    color: #FFE600;
+    font-size: 36px;
+}
+
+#address {
+    line-height: 43px;
+}
+
+#date {
+    background-color: #A72129;
+    color: white;
+}
+
+#fine-arts span {
+    background-color: #FFE600;
+    color: black;
+}
+
+#fine-arts {
+    padding-left: 0;
+    margin-top: 250px;
+}
+
+#fine-arts h2 {
+    font-weight: bold;
+}
+
+#splash-bottom {
+    font-family: Rift, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+    margin-top: 360px;
+    color: #333333;
+}
+
+#exhibition {
+    padding-bottom: 100px;
+}
+
+
+#kandace:hover {
+    background-image: url("images/img/Kandace-Krause.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#amanda:hover {
+    background-image: url("images/img/amanda.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#kya:hover {
+    background-image: url("images/img/kya.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#wolfgang:hover {
+    background-image: url("images/img/wolfgang.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#lee:hover {
+    background-image: url("images/img/lee.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#marcus:hover {
+    background-image: url("images/img/marcus.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#sydney:hover {
+    background-image: url("images/img/sydney.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+span.firstname {
+    font-size: 1.3em;
+}
+
+.col {
+    background-color: black;
+    width: 140px;
+    height: 600px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    transition: 1s;
+}
+
+
+.artist-left {
+    width: 50%;
+}
+
+.artist-right {
+    background-color: red;
+    width: 50%;
+}
+
+#artist {
+    height: 100vh;
+    margin-top: 140px;
+    margin-left: 13%;
+    padding-top: 56px;
+}
+
+#blue-bg {
+    background: blue;
+    color: white;
+    padding: 0 3px;
+}
+
+.artisth2 {
+    font-size: 36px;
+}
+
+/* Mobile Windows__________________________________________*/
+
+.artist-window-mobile{
+    display: none;
+}
+
+@media (max-width: 1320px) {
+
+    #artist {
+        margin-top: 200px;
+    }
+
+    .artist-window-mobile{
+        display: block;
+    }
+   .name-mob {
+       height: 125px;
+       background-color: black;
+       color: white;
+       margin: 20px 0;
+       width: 50%;
+       display: inline-block;
+       padding-left: 7%;
+       padding-top: 5px;
+
+   }
+    .amanda-window {
+        display: inline-block;
+        float: right;
+    }
+    .image-window1 {
+        width: 50%;
+        height: 125px;
+        left: 176px;
+        top: 160px;
+        background-image: url("images/artists/amanda-window.jpg");
+        background-position: center;
+        float: right;
+        margin: 20px 0;
+
+    }
+    .image-window2 {
+        width: 50%;
+        height: 125px;
+        left: 176px;
+        top: 160px;
+        background-image: url("images/artists/kandace-window.jpg");
+        background-position: center;
+        float: right;
+        margin: 20px 0;
+
+    }
+    .image-window3 {
+        width: 50%;
+        height: 125px;
+        left: 176px;
+        top: 160px;
+        background-image: url("images/artists/kya-window.jpg");
+        background-position: center;
+        float: right;
+        margin: 20px 0;
+
+    }
+    .image-window4 {
+        width: 50%;
+        height: 125px;
+        left: 176px;
+        top: 160px;
+        background-image: url("images/artists/jaquery-window.jpg");
+        background-position: center;
+        float: right;
+        margin: 20px 0;
+
+    }
+    .image-window5 {
+          width: 50%;
+          height: 125px;
+          left: 176px;
+          top: 160px;
+          background-image: url("images/artists/lee-window.jpg");
+          background-position: center;
+          float: right;
+          margin: 20px 0;
+
+      }
+    .image-window6 {
+        width: 50%;
+        height: 125px;
+        left: 176px;
+        top: 160px;
+        background-image: url("images/artists/marcus-window.jpg");
+        background-position: center;
+        float: right;
+        margin: 20px 0;
+
+    }
+    .image-window7 {
+        width: 50%;
+        height: 125px;
+        left: 176px;
+        top: 160px;
+        background-image: url("images/artists/sydney-window.jpg");
+        background-position: center;
+        float: right;
+        margin: 20px 0;
+
+    }
+    .topwindow {
+        margin-top: 50px;
+    }
+    .wolfgang {
+        font-size: 30px;
+    }
+
+    .infopar {
+        width: 500px;
+    }
+}
+@media (max-width: 1024px){
+    #artist {
+        height: 100vh;
+        margin-top: -355px;
+        margin-left: 13%;
+        padding-top: 35px!important;
+    }
+}
+@media (max-width: 968px){
+    h2 {
+        font-size: 40px!important;
+    }
+    h3 {
+        font-size: 26px!important;
+    }
+    p {
+        font-size: 18px!important;
+    }
+    #artist {
+        margin-top: -15px;
+    }
+    .hamburger {
+        margin-left: 45%;
+    }
+    .name-mob {
+        height: 110px;
+    }
+    .image-window1, .image-window2, .image-window3, .image-window4, .image-window5, .image-window6, .image-window7 {
+        height: 110px;
+    }
+}
+@media (max-width: 752px){
+    .learn_a_mobile {
+        font-size: 41px!important;
+    }
+    .the-date {
+        width: 203%;
+    }
+}
+@media (max-width: 680px){
+    .learn_a_mobile {
+        font-size: 36px!important;
+    }
+}
+@media (max-width: 565px){
+    .hamburger {
+        margin-left: 11%;
+    }
+    h2 {
+        font-size: 27px!important;
+    }
+    .the-date {
+        width: 199%;
+    }
+    .learn_a_mobile {
+        font-size: 26px!important;
+
+    }
+    .learnbtn_mobile{
+        width: 83%;
+        margin: 5px 0;
+        padding-top: 7px;
+    }
+    .overlay-about-bar {
+        padding-top: 7.2%;
+    }
+    .overlay-exhibition-bar {
+        padding-top: 7.2%;
+    }  .overlay-artist-bar {
+           padding-top: 7.2%;
+       }
+    .name-mob {
+        height: 110px!important;
+        margin: 5px 0;
+        padding-top: 17px;
+    }
+    .image-window1, .image-window2, .image-window3, .image-window4, .image-window5, .image-window6, .image-window7 {
+        height: 110px!important;
+        margin: 5px 0;
+    }
+    .wolfgang {
+        font-size: 18px;
+    }
+    .exhibition {
+        padding-left: 9%!important;
+    }
+
+}
+@media (max-width: 432px){
+    h2 {
+        font-size: 22px!important;
+    }
+    p {
+        font-size: 14px!important;
+    }
+
+    .learn_a_mobile {
+        font-size: 20px!important;
+    }
+    #exhibition {
+        padding-top: 170px;
+        margin-top: 29px;
+    }
+    .aboutcontent {
+        margin-top: 124px;
+    }
+}
+
+/*
+ Modal Styles
+------------------------------------------------------------------------------------------------- */
+
+.modalp{
+    font-size: 14px;
+}
+
+.modal-footer1 {
+    float: left;
+    padding-top:50%;
+}
+
+.modal-body{
+    width:60vw;
+}
+
+.bottom-align-text {
+    position: absolute;
+    bottom: 0;
+}
+
+.modalinfo:hover {
+    background-color: blue;
+    color: white !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.black{
+    color: black;
+}

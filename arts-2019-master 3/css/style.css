@@ -1,0 +1,810 @@
+/* ALL STYLES ARE SORTED BY SECTIONS, THEN ELEMENTS / ID / CLASS IN ALPHABETICAL ORDER */
+
+/* MEDIA QUERIES*/
+/* GENERAL */
+/* NAV */
+/* INDEX */
+/* LANDING */
+/* TILES */
+/* ABOUT */
+/* EXHIBITION */
+/* ART + ARTISTS */
+/* THE WORK */
+/* ARTIST INFO */
+/* ARTIST ARTWORK */
+/* SOCIAL */
+
+/* PHONE MEDIA QUERIES -----------------------------------------------------------------------------------------------*/
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* TABLET MEDIA QUERIES ----------------------------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+    .aboutcontent {
+        display: inline-block;
+        width: 70vw;
+        margin-top: 240px;
+        margin-left:55px;
+    }
+
+    .exhibition {
+        padding-left:10px;
+        width:100%;
+    }
+
+    .learnbtn a{
+        font-size: 34px;
+        margin-left: 45%;
+        color: gold;
+    }
+
+   .logohomepage {
+       width: 20%;
+       position: absolute;
+       top: 57%;
+       left: 5%;
+   }
+
+    .navbar-collapse{
+        float: right;
+        display: relative;
+    }
+
+
+}
+
+/* LAPTOP MEDIA QUERIES? ---------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 1480px) {
+    .img1 {
+        width: 172px;
+        height: 145px;
+        background: url("../images/tiles/a-title.svg");
+        margin: 10px;
+        background-size: cover;
+    }
+
+    .img2 {
+        width: 172px;
+        height: 299px;
+        background: url("../images/tiles/painting-left.jpg");
+        margin: 10px;
+        background-size: cover;
+    }
+
+    .img3 {
+        width: 172px;
+        height: 249px;
+        margin: 10px;
+        background: url("../images/tiles/pottery-left.jpg");
+        background-size: cover;
+    }
+
+    .img4 {
+        width: 172px;
+        height: 58px;
+        margin: 10px;
+        background: url("../images/tiles/cup-middle.jpg");
+        background-size: cover;
+    }
+
+    .img5 {
+        width: 172px;
+        height: 114px;
+        margin: 10px;
+        background: url("../images/tiles/mug-middle.png");
+        background-size: cover;
+    }
+
+    .img6 {
+        width: 172px;
+        height: 214px;
+        margin: 10px;
+        background: url(../images/tiles/f-middle.svg)center center;
+    }
+
+    .img7 {
+        width: 172px;
+        height: 295px;
+        margin: 10px;
+        background: url("../images/tiles/holdinghands-middle.jpg");
+        background-size: cover;
+    }
+
+    .img8 {
+        width: 172px;
+        height: 241px;
+        margin: 10px;
+        background: url("../images/tiles/ashes.jpg");
+        background-size: cover;
+    }
+
+    .img9 {
+        width: 172px;
+        height: 207px;
+        margin: 10px;
+        background: url("../images/tiles/everythingiscold.jpg");
+        background-size: cover;
+    }
+
+    .img10 {
+        width: 172px;
+        height: 242px;
+        margin: 10px;
+        background: url("../images/tiles/a-right.svg");
+        background-size: cover;
+    }
+
+    .tilescontainer {
+        padding: 4px 53px;
+    }
+}
+
+/* GENERAL -----------------------------------------------------------------------------------------------------------*/
+
+html, body {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+
+
+h1 {
+    line-height: normal;
+    font-size: 64px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* NAV ---------------------------------------------------------------------------------------------------------------*/
+.nav-link {
+    color: #000;
+    width: 150px;
+    padding-left: 40px;
+}
+
+
+.nav {
+    display: inline;
+    top: 70px;
+}
+ul {
+    list-style-type: none;
+}
+ul img {
+    width: 83%;
+    padding-left: 20px;
+    visibility: hidden; /* HIDDEN MINI LOGO IN NAV WILL APPEAR WHEN SCROLLING AWAY FROM THE INDEX LANDING SECTION */
+}
+
+#nav-about a:hover {
+    font-size: 1.25rem;
+    color: black;
+    background: gold;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-about .nav-link.active {
+
+    font-size: 1.25rem;
+    color: black;
+    background: gold;
+    font-weight: bold;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-artists a:hover {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    background: #0021CD;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-artists .nav-link.active {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    background: #0021CD;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-artists-thework .nav-link {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    background: #0021CD;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-exhibition a:hover {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    background: #A72129;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-exhibition .nav-link.active {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    background: #A72129;
+    border-radius: 0;
+    height: 40px;
+    padding-top: -20px;
+}
+
+#nav-logo {
+    margin-bottom: 10px;
+}
+
+.aboutbutton:hover {
+    background-color: gold;
+    color: black;
+}
+
+.nav {
+    display: inline;
+    position: fixed!important;
+    top: 40px;
+    width: 180px;
+}
+
+
+.nav-artists-nested a:hover {
+    color: #0021CD;
+    background: none;
+    font-weight: bold;
+}
+
+.nav-artists-nested .nav-link.active {
+    color: #0021CD;
+    background: none;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #000;
+    width: 150px;
+    padding-left: 40px;
+}
+
+.navbar-toggler {
+    float: right;
+    padding: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../images/icons/toggler.svg");
+}
+
+.showbutton:hover {
+    background-color: #A72129;
+    color: white;
+}
+
+.sticky-top {
+    position: sticky;
+    z-index: 1;
+}
+
+.workbutton {
+    margin: 0 0 0 0;
+    padding-bottom: 5px;
+    padding-right: 0 !important;
+    overflow: -moz-scrollbars-none;
+}
+
+.workbutton:hover {
+    background-color: #0021CD;
+    color: white;
+}
+.artist-names {
+    position: fixed;
+    top: 210px;
+}
+.tilescontainer2 {
+    position: relative;
+    top: 70px;
+    right: -16px;
+}
+
+@media (max-width: 1320px){
+    .artist-names{
+        display: block!important;
+
+    }
+}
+/* INDEX -------------------------------------------------------------------------------------------------------------*/
+
+.content#index {
+    padding-left: 100px;
+}
+
+/* LANDING -----------------------------------------------------------------------------------------------------------*/
+
+.landing {
+    height: 90vh;
+    margin-top: -117px;
+    position: relative;
+}
+
+.logohomepage {
+    width: 37%;
+    position: absolute;
+    top: 57%;
+    left: 5%;
+}
+
+/* TILES -------------------------------------------------------------------------------------------------------------*/
+
+.column1 {
+    height: 100vh;
+    display: inline-block;
+}
+
+.column2 {
+    height: 100vh;
+    display: inline-block;
+}
+
+.column3 {
+    height: 100vh;
+    display: inline-block;
+}
+
+.img1 {
+    width: 222px;
+    height: 195px;
+    background: url("../images/tiles/a-title.svg");
+    margin: 10px;
+}
+
+.img2 {
+    width: 222px;
+    height: 349px;
+    background: url("../images/tiles/painting-left.jpg");
+    margin: 10px;
+    transition: .25s;
+}
+
+.img2:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img3 {
+    width: 222px;
+    height: 266px;
+    margin: 10px;
+    background: url("../images/tiles/pottery-left.jpg");
+    transition: .25s;
+}
+
+.img3:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img4 {
+    width: 222px;
+    height: 108px;
+    margin: 10px;
+    background: url("../images/tiles/cup-middle.jpg");
+    transition: .25s;
+}
+
+.img4:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img5 {
+    width: 222px;
+    height: 164px;
+    margin: 10px;
+    background: url("../images/tiles/mug-middle.png");
+    transition: .25s;
+}
+
+.img5:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img6 {
+    width: 222px;
+    height: 214px;
+    margin: 10px;
+    background: url("../images/tiles/f-middle.svg") center center;
+    background-size: contain;
+}
+
+.img6:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img7 {
+    width: 222px;
+    height: 314px;
+    margin: 10px;
+    background: url("../images/tiles/holdinghands-middle.jpg");
+    transition: .25s;
+}
+
+.img7:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img8 {
+    width: 222px;
+    height: 291px;
+    margin: 10px;
+    background: url("../images/tiles/ashes.jpg");
+    transition: .25s;
+}
+
+.img8:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img9 {
+    width: 222px;
+    height: 257px;
+    margin: 10px;
+    background: url("../images/tiles/everythingiscold.jpg");
+    transition: .25s;
+}
+
+.img9:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.img10 {
+    width: 222px;
+    height: 262px;
+    margin: 10px;
+    background: url("../images/tiles/a-right.svg");
+}
+
+.img10:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.sticky-tiles {
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
+.tilescontainer {
+    padding: 20px 10px;
+    display: inline-block;
+    float: right;
+    margin-top: -800px;
+    max-height: 90vh;
+}
+
+/* ABOUT -------------------------------------------------------------------------------------------------------------*/
+
+#about {
+    height: 100vh;
+    margin-top: 10px;
+}
+
+#aboutcontent {
+    margin-left: 100px;
+    display: inline-block;
+    width: 39%;
+    margin-top: 240px;
+}
+
+.bgyellow {
+    padding: 0 4px;
+    background-color: gold;
+}
+
+.learnbtn {
+    height: 60px;
+    background: black;
+    width: 90%;
+    padding: 1% auto auto;
+}
+
+.learnbtn a {
+    font-size: 34px;
+    margin-left: 315px;
+    color: gold;
+}
+
+/* EXHIBITION --------------------------------------------------------------------------------------------------------*/
+
+#address {
+    line-height: 43px;
+}
+
+#exhibition {
+    padding-bottom: 210px;
+    padding-left: 86px;
+}
+
+.bgred {
+    background-color: #A72129;
+    color: white;
+}
+
+#exhibitioncontent {
+    padding-left: 16px;
+    padding-top: 233px;
+}
+
+/* ART + ARTISTS -----------------------------------------------------------------------------------------------------*/
+
+span.firstname {
+    font-size: 1.3em;
+}
+
+span.firstname.hover {
+    text-decoration: none;
+}
+
+#artists {
+    height: 100vh;
+    margin-top: 140px;
+    margin-left: 7%;
+    padding-top: 56px;
+}
+
+#amanda:hover {
+    background-image: url("../images/artists/amanda-hover.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#jacquery:hover {
+    background-image: url("../images/artists/jacquery-hover.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#kandace:hover {
+    background-image: url("../images/artists/kandace-hover.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#kya:hover {
+    background-image: url("../images/artists/kya-hover.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#lee:hover {
+    background-image: url("../images/artists/lee-hover.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#marcus:hover {
+    background-image: url("../images/artists/marcus-hover.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#sydney:hover {
+    background-image: url("../images/artists/sydney-hover.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.bgblue {
+    background: #0021CD;
+    color: white;
+    padding: 0 3px;
+}
+
+.col {
+    background-color: black;
+    width: 140px;
+    height: 600px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    transition: 1s;
+}
+
+.name {
+    padding-top: 100px;
+    padding-left: 10px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+/* THE WORK ----------------------------------------------------------------------------------------------------------*/
+
+.content#thework {
+    float: right;
+    width: 75%;
+    height: 90vh;
+}
+
+/* ARTIST INFO -------------------------------------------------------------------------------------------------------*/
+
+.artisth2 {
+    font-size: 36px;
+}
+
+.artistimg {
+    position: relative;
+    bottom: 170px;
+    left: 340px;
+    margin-bottom: -200px;
+}
+
+.artistleft {
+    width: 50%;
+    position: relative;
+    float: left;
+    left: -80px;
+}
+
+.backgroundbar {
+    background-color: #0021CD;
+    width: 100%;
+}
+
+.backgroundbar#marcus {
+    background: linear-gradient(90deg, #A80414 80%, #640106 20%);
+}
+
+.h1name {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.h2name {
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.h2name#gomand {
+    margin-top: -24px;
+}
+
+.h2name#johnston {
+    margin-top: -24px;
+}
+
+.h2name#kraus {
+    margin-top: -24px;
+}
+
+.h2name#styles {
+    margin-top: -24px;
+}
+
+.h2name#wolfgang {
+    margin-top: -24px;
+}
+
+.parinfo {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+
+/* ARTIST ARTWORK ----------------------------------------------------------------------------------------------------*/
+
+.artistright {
+    width: 50%;
+    position: relative;
+    float: right;
+    top: -107px;
+    right: 80px;
+}
+.img1-amanda {
+    width: 270px;
+    height: 124px;
+    background: url("../images/artists/amanda-window.jpg");
+    background-position:-360px -92px;
+    margin: 10px;
+
+}
+.img2-amanda {
+    width: 270px;
+    height: 174px;
+    background: url("../images/artists/amanda-a.svg");
+    background-position: bottom;
+    margin: 10px;
+}
+.img3-amanda {
+    width: 270px;
+    height: 185px;
+    background: url("../images/artists/amanda-img2.jpg");
+    margin: 10px;
+}
+.img4-amanda {
+    width: 270px;
+    height: 187px;
+    background: url("../images/artists/amanda-img3.jpg");
+    margin: 10px;
+}
+
+/* SOCIAL ------------------------------------------------------------------------------------------------------------*/
+
+.fontawesome a {
+    color: black;
+    margin-left: 10px;
+    font-size: 200%
+}
+
+.socialicons {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.sociallinks {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+}
+
+.socialp {
+    width: 157px;
+    display: inline;
+}
+
+.socialtext {
+    color: black;
+    margin-left: 10px;
+}
