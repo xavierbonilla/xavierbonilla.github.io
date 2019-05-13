@@ -1,0 +1,1039 @@
+/* CSS Document */
+
+body {
+    margin: 0px;
+    background: #FFFFFF;
+}
+p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #666;
+    font-weight: normal;
+}
+
+a {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFF;
+}
+
+div {
+    border: 0px solid #ff0000;
+}
+
+.clearr {
+    clear: both;
+}
+
+#main {
+    background: #fff;
+    margin: 0px auto;
+    width: 800px;
+    height: 480;
+    border: 0px solid #ff0000;
+}
+
+.red {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+#bottom {
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    border-top: 0px solid #333;
+    text-transform: uppercase;
+    width: 600px;
+    margin: 0px auto;
+    padding: 0px 0px 10px 0px;
+}
+
+#bottom-new {
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    border-top: 1px solid #333;
+    text-transform: uppercase;
+    width: 800px;
+    margin: 0px auto;
+    padding: 0px 0px 10px 0px;
+}
+
+.menus {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #666;
+    font-weight: normal;
+    padding: 0px 0px 10px 0px;
+    text-transform: lowercase;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.menus a {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #666;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 0px 5px 0px 5px;
+    width: 600px;
+}
+
+.menus a:hover {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #990000;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+
+.copyright {
+    float: left;
+    padding: 10px 0px 10px 10px;
+    text-transform: capitalize;
+    width: 600px;
+    color: #000;
+}
+
+.copyright a {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.copyright a:hover {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #990000;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+
+.content {
+    background: #fff;
+    height: 520px;
+    border-top: 0px solid #333;
+    margin: 0px 0px 0px 0px;
+}
+
+.heading1 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #584d4d;
+    padding: 10px 0px 10px 0px;
+}
+
+.heading2 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #584d4d;
+    padding: 10px 0px 10px 10px;
+    border: 2px dotted #666;
+}
+
+.heading3 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #584d4d;
+    padding: 10px 0px 10px 10px;
+    border: 0px solid #666;
+    width: 700px;
+    margin: 0px auto;
+}
+
+.heading4 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 28px;
+    color: #584d4d;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.icons {
+    background: transparent;
+    opacity: 0.25;
+    width: 95px;
+    height: 95px;
+    float: left;
+    border: 0px solid #fff000;
+    text-align: center;
+    padding: 10px;
+}
+
+.icons_name {
+    font-family: 'Verdana', sans-serif;
+    font-size: 11px;
+    color: #584d4d;
+    float: left;
+    padding: 5px;
+    border-collapse: collapse;
+    width: 102px;
+    text-align: center;
+}
+
+.form_box {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #584d4d;
+    border: 1px solid #666;
+    padding: 0px;
+    border-collapse: collapse;
+    width: 400px;
+    text-align: left;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.form_box input {
+    background: #f1f1f1;
+    border: 1px #e8e8e8 solid;
+    padding: 5px;
+    width: 240px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #584d4d;
+}
+
+.creden_text {
+    border-bottom: 1px solid #666;
+    padding: 10px 10px 5px 10px;
+}
+
+.division {
+    height: 480;
+    border: 0px solid #666;
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.arrow_left {
+    border: 0px solid #666;
+    width: 60px;
+    float: left;
+    margin-top: 150px;
+}
+
+.div_photos {
+    border: 0px solid #ff0000;
+    width: 630px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.photos {
+    width: 132px;
+    height: 181px;
+    float: left;
+    background: #CC3300;
+    margin: 12px 12px 0px 12px;
+}
+
+.photo_name {
+    background: #000;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    padding: 0px;
+    margin-top: 157px;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.photo_name_cr {
+    background: #ccc;
+    font-family: 'Verdana', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 0px;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.arrow_right {
+    border: 0px solid #666;
+    float: right;
+    width: 60px;
+    margin-top: 150px;
+}
+
+.contact_left {
+    border: 0px solid #ff0000;
+    float: left;
+    width: 330px;
+    margin: 0px 0px 0px 40px;
+    text-align: center;
+}
+
+.cont_box {
+    font-family: 'Verdana', sans-serif;
+    font-size: 11px;
+    color: #584d4d;
+    padding: 10px;
+    width: 200px;
+    border: 2px dotted #666;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.twite {
+    background: url(images/shape.png) no-repeat top;
+    height: 276px;
+    width: 269px;
+}
+
+.address {
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #584d4d;
+    text-align: left;
+}
+
+.L_name {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #584d4d;
+    padding: 5px 0px 5px 10px;
+    border: 2px dotted #666;
+    width: 600px;
+    margin: 10px auto;
+}
+
+.box_details {
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    color: #584d4d;
+    padding: 5px 0px 5px 10px;
+    /*	border:2px dotted #666;*/
+    margin: 10px auto;
+    float: left;
+}
+
+.box_details_My_New {
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    color: #584d4d;
+    padding: 5px 0px 5px 10px;
+    /*	border:2px dotted #666;*/
+    width: 130px;
+    height: 160px;
+    margin: 10px auto;
+    float: left;
+}
+
+.details_image {
+    width: 173px;
+    height: 218px;
+    float: left;
+    margin: 0px 50px 0px 50px;
+}
+
+.arrow_small {
+    width: 35px;
+    float: left;
+    margin: 55px 20px 20px 20px;
+}
+
+.small_img_box {
+    width: 565px;
+    height: 113px;
+    float: left;
+    margin: 20px auto;
+}
+
+.small_img {
+    width: 87px;
+    height: 113px;
+    float: left;
+    margin: 3px;
+}
+
+.corousal {
+    margin: 20px 0px 20px 40px;
+    width: 730px;
+}
+
+#groups {
+    width: 675px;
+    margin: 0px auto;
+    border: 0px solid #ff0000;
+    padding-left: 8px;
+}
+
+.groupLink {
+    float: left;
+    height: 20px;
+    width: 151px;
+    background: #404040;
+    font-family: 'Verdana', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 3px 5px 8px 5px;
+    margin-right: 7px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.groupLink_blank {
+    float: left;
+    height: 16px;
+    width: 146px;
+    background: #fff;
+    font-family: 'Verdana', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 3px 5px 8px 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 2px dotted #333;
+}
+
+.groupImage {
+    height: 180px;
+    width: 140px;
+    float: left;
+    background: #999900;
+}
+
+.photo1 {
+    background: #c0c0c0;
+    height: 165px;
+    width: 127.5px;
+    float: left;
+}
+
+.popupForm {
+    background: url(../images/shapeimage_5.png) no-repeat top;
+    width: 500px;
+    position: absolute;
+    visibility: visible;
+    z-index: 999;
+    margin: 0px auto;
+    padding: 30px;
+    overflow: hidden;
+    top: 99px;
+    left: 342px;
+}
+
+.popupForm2 {
+    background: #CFCFCF;
+    width: 500px;
+    position: absolute;
+    visibility: visible;
+    z-index: 999;
+    margin: 0px auto;
+    padding: 30px;
+    overflow: hidden;
+    top: 199px;
+    left: 280px;
+    opacity: .90;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.90;
+}
+
+.popupFormMailAllGroupPic {
+    background: url(../images/shapeimage_5.png) no-repeat top;
+    width: 500px;
+    position: absolute;
+    visibility: visible;
+    z-index: 999;
+    margin: 0px auto;
+    padding: 30px;
+    overflow: hidden;
+    top: 30px;
+    left: 242px;
+}
+
+.popupFormEmail {
+    background: url(../images/shapeimage_5.png) no-repeat top;
+    width: 500px;
+    position: absolute;
+    visibility: visible;
+    z-index: 999;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.popupForm input,
+textarea {
+    background: #666666;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    padding: 3px;
+    border: 1px solid #666666;
+    margin: 0px auto;
+}
+
+textarea {
+    background: #F1F1F1;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #584D4D;
+    padding: 3px;
+    border: 0px solid #666666;
+    margin: 0px auto;
+}
+
+/*textarea2{
+	background:#666666;
+	font-family: 'Verdana', sans-serif;
+	font-size: 12px;
+	color:#fff;
+	padding:3px;
+	border:0px solid #666666;
+	margin:0px auto;
+}*/
+
+.input {
+    background: rgb(214, 214, 214);
+    padding: 5px;
+    width: 350px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #584d4d;
+}
+
+.inputnew {
+    background: #f1f1f1;
+    padding: 5px;
+    width: 350px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #584d4d;
+}
+
+.inputnew1 {
+    background: #FFFFFF;
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px;
+    color: #584d4d;
+    font-weight: bold;
+}
+
+.myHeading-Text {
+    background: #FFFFFF;
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #584d4d;
+    font-weight: bold;
+}
+
+.addphoto {
+    background: #FFFFFF;
+    height: 180px;
+    width: 140px;
+    float: left;
+    margin: 5px 17px 10px 0px;
+}
+
+.AddedProjectName {
+    float: left;
+    height: 25px;
+    width: 140px;
+    background: #000000;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 3px 5px 8px 5px;
+    margin-right: 7px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.trcolor {
+    background: #ccc;
+}
+
+.subheading {
+    color: rgb(88, 77, 77);
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.normaltext {
+    color: rgb(88, 77, 77);
+    font-family: 'Verdana', sans-serif;
+    font-size: 11px;
+}
+
+.submissionnormaltext {
+    color: rgb(88, 77, 77);
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.tableborder {
+    border: 2px dotted rgb(88, 77, 77);
+}
+
+.tablebordersolid {
+    /*	border:2px solid rgb(88, 77, 77);*/
+    padding-left: 10px;
+    color: rgb(88, 77, 77);
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputboxmy {
+    background: rgb(214, 214, 214);
+    padding: 4px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #584d4d;
+}
+
+.inputtextareaboxmy {
+    background: rgb(214, 214, 214);
+    padding: 5px;
+    width: 350px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #584d4d;
+}
+
+.profiletext {
+    color: rgb(88, 77, 77);
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+}
+
+.QuestionMark {
+    color: rgb(88, 77, 77);
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 35px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+
+/* CSS Document */
+
+.popupmy {
+    position: relative;
+    z-index: 0;
+}
+
+.popupmy:hover {
+    background-color: transparent;
+    z-index: 50;
+}
+
+.popupmy span {
+    /*CSS for enlarged image*/
+    position: absolute;
+    padding: 2px;
+    left: -1000px;
+    width: auto;
+    visibility: visible;
+    top: 136px;
+    left: 0px;
+    /*position where enlarged image should offset horizontally */
+    height: 25px;
+    width: 121px;
+    background-color: #fff;
+    opacity: .40;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.40;
+    border: 1px solid #fff;
+    float: left;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #000000;
+}
+
+.popupmy span img {
+    /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 0px;
+}
+
+.popupmy:hover span {
+    /*CSS for enlarged image on hover*/
+    visibility: visible;
+    top: 136px;
+    left: 0px;
+    /*position where enlarged image should offset horizontally */
+    height: 25px;
+    width: 121px;
+    background-color: #000;
+    opacity: .30;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.30;
+    border: 1px solid #000;
+    color: #FFFFFF;
+    float: left;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.litext {
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+.Selected {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Verdana;
+    color: #636466;
+}
+
+.Deselected {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Verdana;
+    color: #cccccc;
+}
+
+.button {
+    font-size: 13px;
+    /*color: #827878;*/
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: solid 2px #cacaca;
+    background-color: #EBEBEB;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 4px 15px 4px 15px;
+}
+
+.fontcolor {
+    color: #F7931E;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.fontcolor2 {
+    color: #005CFF !important;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.fontcolorName {
+    color: #005CFF !important;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.fontcolorbig {
+    /*color:#D1450A;*/
+    color: #005CFF !important;
+    font-family: Verdana;
+    font-size: 48px;
+}
+
+.fontdot {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: bold;
+    color: #005CFF !important;
+    font-size: 48px;
+    padding: 0px 2px 0px 2px;
+}
+
+.attributesTitle {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.attributes {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #000000;
+}
+
+.talentdivname {
+    float: left;
+    /*
+padding:4px;
+font-family:Verdana;
+font-size:14px;
+color:#000000;*/
+}
+
+.talentdivname:hover {
+    float: left;
+    /*
+padding:4px;
+font-family:Verdana;
+font-size:14px;
+color:#fff;*/
+}
+
+.redErrorMsg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FF0000;
+}
+
+.Casting-Box {
+    background-color: #c0c0c0;
+    /*border-top:1px solid #DAE9F5;
+		border-left:1px solid #DAE9F5;
+		border-right:3px solid #A9C5DD;
+		border-bottom:3px solid #A9C5DD;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;*/
+    width: 127.5px;
+    background: #c0c0c0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffefde', endColorstr='#000000');
+    /* for IE  */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffefde), to(#000000));
+    /* for webkit browsers  */
+    background: -moz-linear-gradient(top, #ffefde, #000000);
+    /* for firefox 3.6+ */
+    /* for firefox 3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#B1D96E), to(#69A82A)); */
+    /* for webkit browsers  */
+    /*background: -moz-linear-gradient(top,  #989898,  #686868);*/
+    /* for firefox 3.6+ */
+    /*-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;*/
+}
+
+.Casting-Box:hover {
+    background-color: #c0c0c0;
+    /*border-top:1px solid #DAE9F5;
+		border-left:1px solid #DAE9F5;
+		border-right:3px solid #A9C5DD;
+		border-bottom:3px solid #A9C5DD;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;*/
+    width: 127.5px;
+    background: #c0c0c0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffefde', endColorstr='#000000');
+    /* for IE  */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffefde), to(#000000));
+    /* for webkit browsers  */
+    background: -moz-linear-gradient(top, #ffefde, #000000);
+    /* for firefox 3.6+ */
+    /* for firefox 3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#B1D96E), to(#69A82A)); */
+    /* for webkit browsers  */
+    /*background: -moz-linear-gradient(top,  #989898,  #686868);*/
+    /* for firefox 3.6+ */
+    /*-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;*/
+}
+
+.Casting-Scroll-Box {
+    background: #cccccc;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#55504A');
+    /* for IE  */
+    background: -webkit-gradient(linear, left center, right center, from(#cccccc), to(#55504A));
+    /* for webkit browsers  */
+    background: -moz-linear-gradient(left, #cccccc, #55504A);
+    /* for firefox 3.6+ */
+    /* for firefox 3.6+ */
+}
+
+.Casting-Scroll-Inner-Box {
+    background: -moz-linear-gradient(left, #cccccc, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #cccccc);
+    background: -webkit-gradient(linear, left center, right center, from(#cccccc), color-stop(08%, #ffffff), color-stop(28%, #ffffff), color-stop(42%, #ffffff), color-stop(56%, #ffffff), color-stop(92%, #ffffff), to(#cccccc));
+}
+
+.Casting-Scroll-Box2 {
+    background: #cccccc;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#55504A');
+    /* for IE  */
+    background: -webkit-gradient(linear, right center, left center, from(#cccccc), to(#55504A));
+    /* for webkit browsers  */
+    background: -moz-linear-gradient(right, #cccccc, #55504A);
+    /* for firefox 3.6+ */
+    /* for firefox 3.6+ */
+}
+
+.casting_room_scroll_box {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #584d4d;
+    border: 1px solid #666;
+    padding: 0px;
+    border-collapse: collapse;
+    width: 400px;
+    text-align: left;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: #cccccc;
+}
+
+.casting_room_scroll_inner_box {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #584d4d;
+    border: 1px solid #666;
+    padding: 0px;
+    border-collapse: collapse;
+    width: 400px;
+    text-align: left;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.showselected {
+    background-color: #000000;
+    float: left;
+    height: 25px;
+    width: 140px;
+    font-family: 'Verdana';
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 3px 5px 8px 5px;
+    margin-right: 7px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.showselected a {
+    background-color: #000000;
+    float: left;
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.shownonselected {
+    background-color: #cccccc;
+    float: left;
+    height: 25px;
+    width: 140px;
+    font-family: 'Verdana';
+    font-size: 12px;
+    color: #000000;
+    padding: 3px 5px 8px 5px;
+    margin-right: 7px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.Privacy {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #D1450A;
+    padding: 10px 0px 10px 0px;
+}
+
+.separator {
+    border-bottom: dashed thin;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #000;
+}
+
+.mouseovertext {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    width: 800px;
+}
+
+.SubmissionText {
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+}
+
+/* Tiny Scrollbar */
+
+#scrollbar1 {
+    width: 620px;
+    clear: both;
+    margin-left: 51px;
+}
+
+#scrollbar1 .viewport {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#scrollbar1 .overview {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#scrollbar1 .scrollbar,
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb {
+    background: transparent url(../images/bg-scrollbar.png) no-repeat;
+}
+
+#scrollbar1 .scrollbar {
+    position: relative;
+    background-position: 0 0;
+    float: right;
+    width: 15px;
+}
+
+#scrollbar1 .track {
+    background: transparent url(../images/bg-scrollbar-end.png) no-repeat 0 100%;
+    height: 100%;
+    width: 13px;
+    position: relative;
+    padding: 0 1px;
+}
+
+#scrollbar1 .thumb {
+    background-position: 100% 100%;
+    height: 20px;
+    width: 13px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+#scrollbar1 .thumb .end {
+    background-position: 100% 0;
+    height: 5px;
+    width: 13px;
+}
+
+#scrollbar1 .disable {
+    display: none;
+}

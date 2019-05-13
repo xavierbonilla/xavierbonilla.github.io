@@ -1,0 +1,62 @@
+
+.logo {
+    grid-column: 1 / end;
+    grid-row: 1 / 2;
+    padding: 30px 0 0 0;
+}
+.board {
+    margin: 0 24px;
+}
+.modelInfo {
+    font-family:'ITC gothic';
+    text-align: left;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+p.modelInfo {
+    margin: -4px 0 0;
+}
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .modelInfo {
+        text-align: center;
+    }
+    p.modelInfo {
+        margin: 0 0 6px;
+    }
+
+}
+@media (min-width: 320px) {
+
+    .board {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+
+    .board {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .board {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap: 12px;
+            margin: 0 48px;
+    }
+
+}
+
+
+
+
+
+
+

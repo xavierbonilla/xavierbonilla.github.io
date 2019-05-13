@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'Haas Grot Disp 75';
+    src: url('font/HaasGrotDisp-75Bold.woff2') format('woff2'),
+    url('font/HaasGrotDisp-75Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: ITC gothic;
+    src: url('font/ITC Avant Garde Gothic LT Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body{
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-family: Helvetica Neue, Arial, sans;
+}
+.wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(12 , 1fr);
+    grid-template-rows: repeat(12 , auto) ;
+    grid-row-gap: 20px;
+}
+.container {
+    grid-column-start:  1;
+    grid-column-end: end;
+    grid-row-start:  3;
+    grid-row-end:  12;
+
+}
+header {
+    font-family: 'Haas Grot Disp 75';
+    font-size: 1rem;
+    letter-spacing: .08rem;
+    z-index: 1;
+    grid-column: 2 / end ;
+    grid-row: 1 / 2;
+}
+.header-left {
+    grid-column-start:  1;
+    grid-column-end: 4;
+    grid-row-start:  1;
+    grid-row-end:  3;
+    margin: 0 0 -10px 0;
+}
+footer {
+    grid-column: 1 / end;
+    grid-row: 11/ end;
+    align-self: end;
+    margin: 24px 12px;
+    padding: 18px 0;
+    letter-spacing: 1.3px;
+    font-family: Haas Grot Disp 75;
+    max-width: 100% ;
+    font-size: .7rem;
+
+}
+.footerBottom {
+    color: #999999;
+    font-size: 12px;
+    text-align: center;
+}
+.footerBottomText {
+    font-size: 12px;
+    color: #000000;
+    padding-top: 10px;
+}
+.homepageFooterIcons {
+    height: 33px;
+    margin-top: -10px;
+}
+.homepageFooterIconsA {
+}
+.footerIcons {
+    display: inline-block;
+    padding-top: 40px;
+}
+.submit {
+    padding: 0 0 18px;
+    text-align: center;
+}
+.homepageInput {
+    border: 1px solid #999999;
+    height: 33px;
+    width: 205px;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    box-sizing: border-box;
+
+}
+.homepageButton {
+    width: 78px;
+    height: 33px;
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+h1 {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+nav {
+    grid-column: 1 / end;
+    grid-row: 1;
+}
+#navAlt li {
+    display: block;
+    padding: 12px;
+}
+.navigationIndex {
+    grid-column: 12;
+    grid-row: 1;
+    margin: 0 12px;
+}
+#header {
+    padding: 0 10px 0;
+}
+#header-navigation {
+    font-size: 15px;
+    line-height: 21px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    right: 12px;
+    text-align: right;
+}
+li {
+    display: inline-block;
+    /*text-align: left;*/
+    /*padding: 6px;*/
+    /*margin-left: 12px;*/
+}
+p {
+    list-style: none;
+    margin: 12px auto;
+    padding:0 0 12px;
+    letter-spacing: .05rem;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #000;
+}
+a {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.start {
+    width: 400px;
+    margin: 0 auto;
+}
+.fashion {
+    font-size: 1rem;
+
+}
+.newfaces {
+    text-transform: uppercase;
+    line-height:150%;
+
+    font-family: sans-serif, 'Helvetica Neue';
+    font-style: normal;
+    font-size: .7rem;
+}
+.newfacespt2 {
+    text-align: right;
+    letter-spacing: .16rem;
+    line-height:175%;
+    font-family: sans-serif, 'Helvetica Neue';
+    font-style: normal;
+    font-size: .7rem;
+}
+.main {
+    text-decoration: underline;
+}
+.main:hover {
+    font-weight: bold;
+
+}
+.bolder:hover {
+    font-weight: bolder;
+
+}
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.lightblue a  {
+    letter-spacing: 1.3px;
+    font-size: .7rem;
+    font-family: 'Haas Grot Disp 75';
+}
+.lightblue a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+.lightblueLg  {
+
+    letter-spacing: 1.6px;
+    font-size: .8rem;
+    font-family: 'Haas Grot Disp 75';
+}
+.lightblueLg  a:hover {
+    color: deepskyblue;
+}
+.xl {
+    font-size: .7rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.name {
+    grid-column: 1 /end;
+    grid-row:   2/3 ;
+    /*font-family: "ITC gothic";*/
+    text-transform: uppercase;
+    font-family: 'Haas Grot Disp 75';
+    font-size: .9rem;
+    letter-spacing: .06rem;
+    padding-top: 20px;
+}
+.text-alt a {
+    color: white;
+}
+.text-alt {
+    color: white;
+}
+.zoom-in {
+    cursor: zoom-in;
+}
+a img {
+    max-width: 100%;
+}
+.mobileModels {
+    padding: 0;
+}
+.model img {
+    padding-bottom: 18px;
+}
+.modeltwo li {
+    text-align: center;
+}
+.modeltwo img {
+    width: 49%;
+}
+.modelThree img {
+    width: 33%;
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        display: none;
+    }
+    .name {
+        grid-column: 1/end;
+        grid-row:   2/3;
+    }
+    .mobileModels {
+        display: none;
+    }
+    .modeltwo img {
+        width: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        display: none;
+    }
+    .lgModels {
+        display: none;
+    }
+    .modelThree img {
+        width: 100%;
+    }
+    .modeltwo img {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+    .modelThree img {
+        width: 100%;
+    }
+}
+@media (min-width: 768px)  {
+    .models {
+        width: 88%;
+        margin: 0 auto;
+    }
+    .lgModels {
+        display: none;
+    }
+    .name {
+        grid-column: 8/end;
+    }
+}
+
+
+
